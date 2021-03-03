@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     }
     
     @objc func update(){
-        NSLog("updating")
         fishBowl.update()
     }
 
