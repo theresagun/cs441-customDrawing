@@ -7,74 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3440667725ED356D00A2C1E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440667625ED356D00A2C1E8 /* AppDelegate.m */; };
-		3440667A25ED356D00A2C1E8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440667925ED356D00A2C1E8 /* SceneDelegate.m */; };
-		3440667D25ED356D00A2C1E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440667C25ED356D00A2C1E8 /* ViewController.m */; };
-		3440668025ED356D00A2C1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440667E25ED356D00A2C1E8 /* Main.storyboard */; };
-		3440668225ED356E00A2C1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3440668125ED356E00A2C1E8 /* Assets.xcassets */; };
-		3440668525ED356E00A2C1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440668325ED356E00A2C1E8 /* LaunchScreen.storyboard */; };
-		3440668825ED356E00A2C1E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440668725ED356E00A2C1E8 /* main.m */; };
-		3440669225ED356E00A2C1E8 /* cs441_customDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440669125ED356E00A2C1E8 /* cs441_customDrawingTests.m */; };
-		3440669D25ED356E00A2C1E8 /* cs441_customDrawingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3440669C25ED356E00A2C1E8 /* cs441_customDrawingUITests.m */; };
-		344066B225ED367C00A2C1E8 /* drawSomething.m in Sources */ = {isa = PBXBuildFile; fileRef = 344066B125ED367C00A2C1E8 /* drawSomething.m */; };
+		34A6145925EFE853004CB1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6145825EFE853004CB1F5 /* AppDelegate.swift */; };
+		34A6145B25EFE853004CB1F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6145A25EFE853004CB1F5 /* SceneDelegate.swift */; };
+		34A6145D25EFE853004CB1F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6145C25EFE853004CB1F5 /* ViewController.swift */; };
+		34A6146025EFE853004CB1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A6145E25EFE853004CB1F5 /* Main.storyboard */; };
+		34A6146225EFE854004CB1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A6146125EFE854004CB1F5 /* Assets.xcassets */; };
+		34A6146525EFE854004CB1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A6146325EFE854004CB1F5 /* LaunchScreen.storyboard */; };
+		34A6147025EFE854004CB1F5 /* cs441_customDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6146F25EFE854004CB1F5 /* cs441_customDrawingTests.swift */; };
+		34A6147B25EFE854004CB1F5 /* cs441_customDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6147A25EFE854004CB1F5 /* cs441_customDrawingUITests.swift */; };
+		34A6148F25EFE927004CB1F5 /* fishBowl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6148E25EFE927004CB1F5 /* fishBowl.swift */; };
+		34A6149425EFEA1F004CB1F5 /* gameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6149325EFEA1F004CB1F5 /* gameScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3440668E25ED356E00A2C1E8 /* PBXContainerItemProxy */ = {
+		34A6146C25EFE854004CB1F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3440666A25ED356D00A2C1E8 /* Project object */;
+			containerPortal = 34A6144D25EFE853004CB1F5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3440667125ED356D00A2C1E8;
+			remoteGlobalIDString = 34A6145425EFE853004CB1F5;
 			remoteInfo = "cs441-customDrawing";
 		};
-		3440669925ED356E00A2C1E8 /* PBXContainerItemProxy */ = {
+		34A6147725EFE854004CB1F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3440666A25ED356D00A2C1E8 /* Project object */;
+			containerPortal = 34A6144D25EFE853004CB1F5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3440667125ED356D00A2C1E8;
+			remoteGlobalIDString = 34A6145425EFE853004CB1F5;
 			remoteInfo = "cs441-customDrawing";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3440667225ED356D00A2C1E8 /* cs441-customDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs441-customDrawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3440667525ED356D00A2C1E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3440667625ED356D00A2C1E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3440667825ED356D00A2C1E8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3440667925ED356D00A2C1E8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3440667B25ED356D00A2C1E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3440667C25ED356D00A2C1E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3440667F25ED356D00A2C1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3440668125ED356E00A2C1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3440668425ED356E00A2C1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3440668625ED356E00A2C1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3440668725ED356E00A2C1E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3440668D25ED356E00A2C1E8 /* cs441-customDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-customDrawingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3440669125ED356E00A2C1E8 /* cs441_customDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs441_customDrawingTests.m; sourceTree = "<group>"; };
-		3440669325ED356E00A2C1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3440669825ED356E00A2C1E8 /* cs441-customDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-customDrawingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3440669C25ED356E00A2C1E8 /* cs441_customDrawingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs441_customDrawingUITests.m; sourceTree = "<group>"; };
-		3440669E25ED356E00A2C1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		344066B025ED367C00A2C1E8 /* drawSomething.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawSomething.h; sourceTree = "<group>"; };
-		344066B125ED367C00A2C1E8 /* drawSomething.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawSomething.m; sourceTree = "<group>"; };
+		34A6145525EFE853004CB1F5 /* cs441-customDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs441-customDrawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A6145825EFE853004CB1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34A6145A25EFE853004CB1F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34A6145C25EFE853004CB1F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34A6145F25EFE853004CB1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A6146125EFE854004CB1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A6146425EFE854004CB1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A6146625EFE854004CB1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A6146B25EFE854004CB1F5 /* cs441-customDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-customDrawingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A6146F25EFE854004CB1F5 /* cs441_customDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_customDrawingTests.swift; sourceTree = "<group>"; };
+		34A6147125EFE854004CB1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A6147625EFE854004CB1F5 /* cs441-customDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-customDrawingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A6147A25EFE854004CB1F5 /* cs441_customDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_customDrawingUITests.swift; sourceTree = "<group>"; };
+		34A6147C25EFE854004CB1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A6148E25EFE927004CB1F5 /* fishBowl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishBowl.swift; sourceTree = "<group>"; };
+		34A6149325EFEA1F004CB1F5 /* gameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3440666F25ED356D00A2C1E8 /* Frameworks */ = {
+		34A6145225EFE853004CB1F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440668A25ED356E00A2C1E8 /* Frameworks */ = {
+		34A6146825EFE854004CB1F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440669525ED356E00A2C1E8 /* Frameworks */ = {
+		34A6147325EFE854004CB1F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,60 +80,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3440666925ED356D00A2C1E8 = {
+		34A6144C25EFE852004CB1F5 = {
 			isa = PBXGroup;
 			children = (
-				3440667425ED356D00A2C1E8 /* cs441-customDrawing */,
-				3440669025ED356E00A2C1E8 /* cs441-customDrawingTests */,
-				3440669B25ED356E00A2C1E8 /* cs441-customDrawingUITests */,
-				3440667325ED356D00A2C1E8 /* Products */,
+				34A6145725EFE853004CB1F5 /* cs441-customDrawing */,
+				34A6146E25EFE854004CB1F5 /* cs441-customDrawingTests */,
+				34A6147925EFE854004CB1F5 /* cs441-customDrawingUITests */,
+				34A6145625EFE853004CB1F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3440667325ED356D00A2C1E8 /* Products */ = {
+		34A6145625EFE853004CB1F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3440667225ED356D00A2C1E8 /* cs441-customDrawing.app */,
-				3440668D25ED356E00A2C1E8 /* cs441-customDrawingTests.xctest */,
-				3440669825ED356E00A2C1E8 /* cs441-customDrawingUITests.xctest */,
+				34A6145525EFE853004CB1F5 /* cs441-customDrawing.app */,
+				34A6146B25EFE854004CB1F5 /* cs441-customDrawingTests.xctest */,
+				34A6147625EFE854004CB1F5 /* cs441-customDrawingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3440667425ED356D00A2C1E8 /* cs441-customDrawing */ = {
+		34A6145725EFE853004CB1F5 /* cs441-customDrawing */ = {
 			isa = PBXGroup;
 			children = (
-				3440667525ED356D00A2C1E8 /* AppDelegate.h */,
-				3440667625ED356D00A2C1E8 /* AppDelegate.m */,
-				3440667825ED356D00A2C1E8 /* SceneDelegate.h */,
-				3440667925ED356D00A2C1E8 /* SceneDelegate.m */,
-				3440667B25ED356D00A2C1E8 /* ViewController.h */,
-				3440667C25ED356D00A2C1E8 /* ViewController.m */,
-				3440667E25ED356D00A2C1E8 /* Main.storyboard */,
-				344066B025ED367C00A2C1E8 /* drawSomething.h */,
-				344066B125ED367C00A2C1E8 /* drawSomething.m */,
-				3440668125ED356E00A2C1E8 /* Assets.xcassets */,
-				3440668325ED356E00A2C1E8 /* LaunchScreen.storyboard */,
-				3440668625ED356E00A2C1E8 /* Info.plist */,
-				3440668725ED356E00A2C1E8 /* main.m */,
+				34A6145825EFE853004CB1F5 /* AppDelegate.swift */,
+				34A6145A25EFE853004CB1F5 /* SceneDelegate.swift */,
+				34A6145C25EFE853004CB1F5 /* ViewController.swift */,
+				34A6145E25EFE853004CB1F5 /* Main.storyboard */,
+				34A6149325EFEA1F004CB1F5 /* gameScreen.swift */,
+				34A6148E25EFE927004CB1F5 /* fishBowl.swift */,
+				34A6146125EFE854004CB1F5 /* Assets.xcassets */,
+				34A6146325EFE854004CB1F5 /* LaunchScreen.storyboard */,
+				34A6146625EFE854004CB1F5 /* Info.plist */,
 			);
 			path = "cs441-customDrawing";
 			sourceTree = "<group>";
 		};
-		3440669025ED356E00A2C1E8 /* cs441-customDrawingTests */ = {
+		34A6146E25EFE854004CB1F5 /* cs441-customDrawingTests */ = {
 			isa = PBXGroup;
 			children = (
-				3440669125ED356E00A2C1E8 /* cs441_customDrawingTests.m */,
-				3440669325ED356E00A2C1E8 /* Info.plist */,
+				34A6146F25EFE854004CB1F5 /* cs441_customDrawingTests.swift */,
+				34A6147125EFE854004CB1F5 /* Info.plist */,
 			);
 			path = "cs441-customDrawingTests";
 			sourceTree = "<group>";
 		};
-		3440669B25ED356E00A2C1E8 /* cs441-customDrawingUITests */ = {
+		34A6147925EFE854004CB1F5 /* cs441-customDrawingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3440669C25ED356E00A2C1E8 /* cs441_customDrawingUITests.m */,
-				3440669E25ED356E00A2C1E8 /* Info.plist */,
+				34A6147A25EFE854004CB1F5 /* cs441_customDrawingUITests.swift */,
+				34A6147C25EFE854004CB1F5 /* Info.plist */,
 			);
 			path = "cs441-customDrawingUITests";
 			sourceTree = "<group>";
@@ -145,13 +137,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3440667125ED356D00A2C1E8 /* cs441-customDrawing */ = {
+		34A6145425EFE853004CB1F5 /* cs441-customDrawing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 344066A125ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawing" */;
+			buildConfigurationList = 34A6147F25EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawing" */;
 			buildPhases = (
-				3440666E25ED356D00A2C1E8 /* Sources */,
-				3440666F25ED356D00A2C1E8 /* Frameworks */,
-				3440667025ED356D00A2C1E8 /* Resources */,
+				34A6145125EFE853004CB1F5 /* Sources */,
+				34A6145225EFE853004CB1F5 /* Frameworks */,
+				34A6145325EFE853004CB1F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,67 +151,68 @@
 			);
 			name = "cs441-customDrawing";
 			productName = "cs441-customDrawing";
-			productReference = 3440667225ED356D00A2C1E8 /* cs441-customDrawing.app */;
+			productReference = 34A6145525EFE853004CB1F5 /* cs441-customDrawing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3440668C25ED356E00A2C1E8 /* cs441-customDrawingTests */ = {
+		34A6146A25EFE854004CB1F5 /* cs441-customDrawingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 344066A425ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawingTests" */;
+			buildConfigurationList = 34A6148225EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawingTests" */;
 			buildPhases = (
-				3440668925ED356E00A2C1E8 /* Sources */,
-				3440668A25ED356E00A2C1E8 /* Frameworks */,
-				3440668B25ED356E00A2C1E8 /* Resources */,
+				34A6146725EFE854004CB1F5 /* Sources */,
+				34A6146825EFE854004CB1F5 /* Frameworks */,
+				34A6146925EFE854004CB1F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3440668F25ED356E00A2C1E8 /* PBXTargetDependency */,
+				34A6146D25EFE854004CB1F5 /* PBXTargetDependency */,
 			);
 			name = "cs441-customDrawingTests";
 			productName = "cs441-customDrawingTests";
-			productReference = 3440668D25ED356E00A2C1E8 /* cs441-customDrawingTests.xctest */;
+			productReference = 34A6146B25EFE854004CB1F5 /* cs441-customDrawingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3440669725ED356E00A2C1E8 /* cs441-customDrawingUITests */ = {
+		34A6147525EFE854004CB1F5 /* cs441-customDrawingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 344066A725ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawingUITests" */;
+			buildConfigurationList = 34A6148525EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawingUITests" */;
 			buildPhases = (
-				3440669425ED356E00A2C1E8 /* Sources */,
-				3440669525ED356E00A2C1E8 /* Frameworks */,
-				3440669625ED356E00A2C1E8 /* Resources */,
+				34A6147225EFE854004CB1F5 /* Sources */,
+				34A6147325EFE854004CB1F5 /* Frameworks */,
+				34A6147425EFE854004CB1F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3440669A25ED356E00A2C1E8 /* PBXTargetDependency */,
+				34A6147825EFE854004CB1F5 /* PBXTargetDependency */,
 			);
 			name = "cs441-customDrawingUITests";
 			productName = "cs441-customDrawingUITests";
-			productReference = 3440669825ED356E00A2C1E8 /* cs441-customDrawingUITests.xctest */;
+			productReference = 34A6147625EFE854004CB1F5 /* cs441-customDrawingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3440666A25ED356D00A2C1E8 /* Project object */ = {
+		34A6144D25EFE853004CB1F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					3440667125ED356D00A2C1E8 = {
+					34A6145425EFE853004CB1F5 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					3440668C25ED356E00A2C1E8 = {
+					34A6146A25EFE854004CB1F5 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3440667125ED356D00A2C1E8;
+						TestTargetID = 34A6145425EFE853004CB1F5;
 					};
-					3440669725ED356E00A2C1E8 = {
+					34A6147525EFE854004CB1F5 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3440667125ED356D00A2C1E8;
+						TestTargetID = 34A6145425EFE853004CB1F5;
 					};
 				};
 			};
-			buildConfigurationList = 3440666D25ED356D00A2C1E8 /* Build configuration list for PBXProject "cs441-customDrawing" */;
+			buildConfigurationList = 34A6145025EFE853004CB1F5 /* Build configuration list for PBXProject "cs441-customDrawing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,37 +220,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3440666925ED356D00A2C1E8;
-			productRefGroup = 3440667325ED356D00A2C1E8 /* Products */;
+			mainGroup = 34A6144C25EFE852004CB1F5;
+			productRefGroup = 34A6145625EFE853004CB1F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3440667125ED356D00A2C1E8 /* cs441-customDrawing */,
-				3440668C25ED356E00A2C1E8 /* cs441-customDrawingTests */,
-				3440669725ED356E00A2C1E8 /* cs441-customDrawingUITests */,
+				34A6145425EFE853004CB1F5 /* cs441-customDrawing */,
+				34A6146A25EFE854004CB1F5 /* cs441-customDrawingTests */,
+				34A6147525EFE854004CB1F5 /* cs441-customDrawingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3440667025ED356D00A2C1E8 /* Resources */ = {
+		34A6145325EFE853004CB1F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3440668525ED356E00A2C1E8 /* LaunchScreen.storyboard in Resources */,
-				3440668225ED356E00A2C1E8 /* Assets.xcassets in Resources */,
-				3440668025ED356D00A2C1E8 /* Main.storyboard in Resources */,
+				34A6146525EFE854004CB1F5 /* LaunchScreen.storyboard in Resources */,
+				34A6146225EFE854004CB1F5 /* Assets.xcassets in Resources */,
+				34A6146025EFE853004CB1F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440668B25ED356E00A2C1E8 /* Resources */ = {
+		34A6146925EFE854004CB1F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440669625ED356E00A2C1E8 /* Resources */ = {
+		34A6147425EFE854004CB1F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,62 +260,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3440666E25ED356D00A2C1E8 /* Sources */ = {
+		34A6145125EFE853004CB1F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3440667D25ED356D00A2C1E8 /* ViewController.m in Sources */,
-				344066B225ED367C00A2C1E8 /* drawSomething.m in Sources */,
-				3440667725ED356D00A2C1E8 /* AppDelegate.m in Sources */,
-				3440668825ED356E00A2C1E8 /* main.m in Sources */,
-				3440667A25ED356D00A2C1E8 /* SceneDelegate.m in Sources */,
+				34A6145D25EFE853004CB1F5 /* ViewController.swift in Sources */,
+				34A6145925EFE853004CB1F5 /* AppDelegate.swift in Sources */,
+				34A6149425EFEA1F004CB1F5 /* gameScreen.swift in Sources */,
+				34A6145B25EFE853004CB1F5 /* SceneDelegate.swift in Sources */,
+				34A6148F25EFE927004CB1F5 /* fishBowl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440668925ED356E00A2C1E8 /* Sources */ = {
+		34A6146725EFE854004CB1F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3440669225ED356E00A2C1E8 /* cs441_customDrawingTests.m in Sources */,
+				34A6147025EFE854004CB1F5 /* cs441_customDrawingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3440669425ED356E00A2C1E8 /* Sources */ = {
+		34A6147225EFE854004CB1F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3440669D25ED356E00A2C1E8 /* cs441_customDrawingUITests.m in Sources */,
+				34A6147B25EFE854004CB1F5 /* cs441_customDrawingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3440668F25ED356E00A2C1E8 /* PBXTargetDependency */ = {
+		34A6146D25EFE854004CB1F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3440667125ED356D00A2C1E8 /* cs441-customDrawing */;
-			targetProxy = 3440668E25ED356E00A2C1E8 /* PBXContainerItemProxy */;
+			target = 34A6145425EFE853004CB1F5 /* cs441-customDrawing */;
+			targetProxy = 34A6146C25EFE854004CB1F5 /* PBXContainerItemProxy */;
 		};
-		3440669A25ED356E00A2C1E8 /* PBXTargetDependency */ = {
+		34A6147825EFE854004CB1F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3440667125ED356D00A2C1E8 /* cs441-customDrawing */;
-			targetProxy = 3440669925ED356E00A2C1E8 /* PBXContainerItemProxy */;
+			target = 34A6145425EFE853004CB1F5 /* cs441-customDrawing */;
+			targetProxy = 34A6147725EFE854004CB1F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3440667E25ED356D00A2C1E8 /* Main.storyboard */ = {
+		34A6145E25EFE853004CB1F5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3440667F25ED356D00A2C1E8 /* Base */,
+				34A6145F25EFE853004CB1F5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3440668325ED356E00A2C1E8 /* LaunchScreen.storyboard */ = {
+		34A6146325EFE854004CB1F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3440668425ED356E00A2C1E8 /* Base */,
+				34A6146425EFE854004CB1F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +323,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3440669F25ED356E00A2C1E8 /* Debug */ = {
+		34A6147D25EFE854004CB1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,10 +379,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		344066A025ED356E00A2C1E8 /* Release */ = {
+		34A6147E25EFE854004CB1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,11 +433,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		344066A225ED356E00A2C1E8 /* Debug */ = {
+		34A6148025EFE854004CB1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,11 +454,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		344066A325ED356E00A2C1E8 /* Release */ = {
+		34A6148125EFE854004CB1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -476,13 +474,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		344066A525ED356E00A2C1E8 /* Debug */ = {
+		34A6148325EFE854004CB1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA2Q6XHTH2;
@@ -495,14 +495,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs441-customDrawing.app/cs441-customDrawing";
 			};
 			name = Debug;
 		};
-		344066A625ED356E00A2C1E8 /* Release */ = {
+		34A6148425EFE854004CB1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA2Q6XHTH2;
@@ -515,14 +517,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs441-customDrawing.app/cs441-customDrawing";
 			};
 			name = Release;
 		};
-		344066A825ED356E00A2C1E8 /* Debug */ = {
+		34A6148625EFE854004CB1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA2Q6XHTH2;
 				INFOPLIST_FILE = "cs441-customDrawingUITests/Info.plist";
@@ -533,14 +537,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "cs441-customDrawing";
 			};
 			name = Debug;
 		};
-		344066A925ED356E00A2C1E8 /* Release */ = {
+		34A6148725EFE854004CB1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA2Q6XHTH2;
 				INFOPLIST_FILE = "cs441-customDrawingUITests/Info.plist";
@@ -551,6 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgundel.cs441-customDrawingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "cs441-customDrawing";
 			};
@@ -559,43 +566,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3440666D25ED356D00A2C1E8 /* Build configuration list for PBXProject "cs441-customDrawing" */ = {
+		34A6145025EFE853004CB1F5 /* Build configuration list for PBXProject "cs441-customDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3440669F25ED356E00A2C1E8 /* Debug */,
-				344066A025ED356E00A2C1E8 /* Release */,
+				34A6147D25EFE854004CB1F5 /* Debug */,
+				34A6147E25EFE854004CB1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		344066A125ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawing" */ = {
+		34A6147F25EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				344066A225ED356E00A2C1E8 /* Debug */,
-				344066A325ED356E00A2C1E8 /* Release */,
+				34A6148025EFE854004CB1F5 /* Debug */,
+				34A6148125EFE854004CB1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		344066A425ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawingTests" */ = {
+		34A6148225EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				344066A525ED356E00A2C1E8 /* Debug */,
-				344066A625ED356E00A2C1E8 /* Release */,
+				34A6148325EFE854004CB1F5 /* Debug */,
+				34A6148425EFE854004CB1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		344066A725ED356E00A2C1E8 /* Build configuration list for PBXNativeTarget "cs441-customDrawingUITests" */ = {
+		34A6148525EFE854004CB1F5 /* Build configuration list for PBXNativeTarget "cs441-customDrawingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				344066A825ED356E00A2C1E8 /* Debug */,
-				344066A925ED356E00A2C1E8 /* Release */,
+				34A6148625EFE854004CB1F5 /* Debug */,
+				34A6148725EFE854004CB1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3440666A25ED356D00A2C1E8 /* Project object */;
+	rootObject = 34A6144D25EFE853004CB1F5 /* Project object */;
 }

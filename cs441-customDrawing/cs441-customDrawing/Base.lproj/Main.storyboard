@@ -9,43 +9,61 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="iZN-EH-fnm">
+            <objects>
+                <viewController id="AOj-a0-CcP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LJg-3g-hYU" customClass="gameScreen" customModule="cs441_customDrawing" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UQZ-ft-agB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OmT-Kg-iaw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jx6-RX-1SX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="652" y="-194"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cs441_customDrawing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDr-u8-q1m" customClass="drawSomething">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwU-bI-Cj3">
+                                <rect key="frame" x="192" y="433" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <segue destination="AOj-a0-CcP" kind="show" id="C3x-eS-mz1"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pfj-E2-p90" customClass="fishBowl" customModule="cs441_customDrawing" customModuleProvider="target">
+                                <rect key="frame" x="87" y="196" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="KDr-u8-q1m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JdE-y3-EW1"/>
-                            <constraint firstItem="KDr-u8-q1m" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MZ8-T5-umP"/>
-                            <constraint firstItem="KDr-u8-q1m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PuU-or-frH"/>
-                            <constraint firstItem="KDr-u8-q1m" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bN6-Lq-dzx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KDr-u8-q1m" secondAttribute="trailing" constant="20" id="ruR-9y-IrC"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="drawSome" destination="KDr-u8-q1m" id="mEd-3n-qk7"/>
+                        <outlet property="fishBowl" destination="Pfj-E2-p90" id="MXi-DS-dJd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-197.10144927536234" y="77.678571428571431"/>
+            <point key="canvasLocation" x="-188" y="78"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
