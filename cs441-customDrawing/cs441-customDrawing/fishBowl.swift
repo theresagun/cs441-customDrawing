@@ -9,11 +9,14 @@ import UIKit
 
 class fishBowl: UIView {
     @IBOutlet var label: UILabel!
+    
     var fishX = 0
     var fishY = 0
     var dx = 1
     var dy = 1
     var score = 0
+    var image = UIImage(imageLiteralResourceName: "goldfish.png")
+    var isFlipped = false
     
     //make the UIView look like an ellipse
     //stackoverflow
@@ -45,22 +48,11 @@ class fishBowl: UIView {
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
-        let color:UIColor = UIColor.yellow
-        //drect is creating a rectangle to later change into ellipse
+        //drect is creating a rectangle to put the fish image on
         let drect = CGRect(x:fishX, y:fishY, width:40, height:50)
-        let bpath:UIBezierPath = UIBezierPath(rect: drect)
-        
-        color.set()
-        bpath.stroke()
-        
-        //stackoverflow code next 3 lines to make the obj an ellipse
-        let ovalPath = UIBezierPath(ovalIn: drect)
-        UIColor.orange.set()
-        ovalPath.fill()
-        //end of stackoverflow
-        
-        self.label.text = String(score)
+        image.draw(in: drect) //CG == Core Graphics
 
+        self.label.text = String(score)
         }
 
     @objc func update(){
@@ -73,11 +65,19 @@ class fishBowl: UIView {
             fishX = Int(poss.randomElement() ?? Int(self.bounds.minX))
             if fishX == Int(self.bounds.minX){
                 //if we are starting at the min x, we want x to increase
-                dx = 1
+                dx = abs(dx)
+                if isFlipped == true{
+                    image = image.withHorizontallyFlippedOrientation()
+                    isFlipped = false
+                }
             }
             else{
                 //we are starting at maxX so we want x to decrement
-                dx = -1
+                dx = -abs(dx)
+                if isFlipped == false{
+                    image = image.withHorizontallyFlippedOrientation()
+                    isFlipped = true
+                }
             }
         }
         setNeedsDisplay()
@@ -90,21 +90,40 @@ class fishBowl: UIView {
             if dist < 50 {
                 score += 1
                 self.label.text = String(score)
+                if score % 5 == 0 && score != 0 {
+                    if dx > 0{
+                        dx += 1
+                    }
+                    else{
+                        dx -= 1
+                    }
+                }
 
                 fishY = Int.random(in: Int(self.bounds.minY)...Int(self.bounds.maxY))
                 let poss = [Int(self.bounds.minX), Int(self.bounds.maxX)]
                 fishX = Int(poss.randomElement() ?? Int(self.bounds.minX))
                 if fishX == Int(self.bounds.minX){
                     //if we are starting at the min x, we want x to increase
-                    dx = 1
+                    dx = abs(dx)
+                    if isFlipped == true{
+                        image = image.withHorizontallyFlippedOrientation()
+                        isFlipped = false
+                    }
                 }
                 else{
                     //we are starting at maxX so we want x to decrement
-                    dx = -1
+                    dx = -abs(dx)
+                    if isFlipped == false{
+                        image = image.withHorizontallyFlippedOrientation()
+                        isFlipped = true
+                    }
+                    
                 }
+                
             }
-            //to tap the fish we need to get the x and y, compare to the fishx and fishy, then do something if it is the same
+
         }
+
     }
 
 }

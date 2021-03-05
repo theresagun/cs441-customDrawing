@@ -16,7 +16,9 @@
 		34A6147025EFE854004CB1F5 /* cs441_customDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6146F25EFE854004CB1F5 /* cs441_customDrawingTests.swift */; };
 		34A6147B25EFE854004CB1F5 /* cs441_customDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6147A25EFE854004CB1F5 /* cs441_customDrawingUITests.swift */; };
 		34A6148F25EFE927004CB1F5 /* fishBowl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6148E25EFE927004CB1F5 /* fishBowl.swift */; };
-		34A6149425EFEA1F004CB1F5 /* gameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A6149325EFEA1F004CB1F5 /* gameScreen.swift */; };
+		34FB2C8D25F2808100776101 /* goldfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FB2C8C25F2808100776101 /* goldfish.png */; };
+		34FB2CA225F2890B00776101 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FB2CA125F2890A00776101 /* cat.png */; };
+		34FB2CD725F28AFD00776101 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FB2CD625F28AFD00776101 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,9 @@
 		34A6147A25EFE854004CB1F5 /* cs441_customDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_customDrawingUITests.swift; sourceTree = "<group>"; };
 		34A6147C25EFE854004CB1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34A6148E25EFE927004CB1F5 /* fishBowl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishBowl.swift; sourceTree = "<group>"; };
-		34A6149325EFEA1F004CB1F5 /* gameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameScreen.swift; sourceTree = "<group>"; };
+		34FB2C8C25F2808100776101 /* goldfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldfish.png; sourceTree = "<group>"; };
+		34FB2CA125F2890A00776101 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../../../../Downloads/cat.png; sourceTree = "<group>"; };
+		34FB2CD625F28AFD00776101 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../../../Downloads/arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,10 @@
 				34A6145A25EFE853004CB1F5 /* SceneDelegate.swift */,
 				34A6145C25EFE853004CB1F5 /* ViewController.swift */,
 				34A6145E25EFE853004CB1F5 /* Main.storyboard */,
-				34A6149325EFEA1F004CB1F5 /* gameScreen.swift */,
 				34A6148E25EFE927004CB1F5 /* fishBowl.swift */,
+				34FB2C8C25F2808100776101 /* goldfish.png */,
+				34FB2CA125F2890A00776101 /* cat.png */,
+				34FB2CD625F28AFD00776101 /* arrow.png */,
 				34A6146125EFE854004CB1F5 /* Assets.xcassets */,
 				34A6146325EFE854004CB1F5 /* LaunchScreen.storyboard */,
 				34A6146625EFE854004CB1F5 /* Info.plist */,
@@ -237,9 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FB2CA225F2890B00776101 /* cat.png in Resources */,
+				34FB2CD725F28AFD00776101 /* arrow.png in Resources */,
 				34A6146525EFE854004CB1F5 /* LaunchScreen.storyboard in Resources */,
 				34A6146225EFE854004CB1F5 /* Assets.xcassets in Resources */,
 				34A6146025EFE853004CB1F5 /* Main.storyboard in Resources */,
+				34FB2C8D25F2808100776101 /* goldfish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +275,6 @@
 			files = (
 				34A6145D25EFE853004CB1F5 /* ViewController.swift in Sources */,
 				34A6145925EFE853004CB1F5 /* AppDelegate.swift in Sources */,
-				34A6149425EFEA1F004CB1F5 /* gameScreen.swift in Sources */,
 				34A6145B25EFE853004CB1F5 /* SceneDelegate.swift in Sources */,
 				34A6148F25EFE927004CB1F5 /* fishBowl.swift in Sources */,
 			);
